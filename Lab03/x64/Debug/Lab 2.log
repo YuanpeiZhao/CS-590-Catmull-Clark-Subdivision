@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\projects\cs 590 lab 3\lab02\src\main.cpp(199): warning C4305: “参数”: 从“double”到“const float”截断
+  vect3d.cpp
+  正在生成代码...
+  Lab 2.vcxproj -> D:\Projects\CS 590 Lab 3\Lab02\x64\Debug\Lab 2.exe

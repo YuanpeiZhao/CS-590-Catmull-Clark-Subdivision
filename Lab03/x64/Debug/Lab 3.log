@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lab 2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(144,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(145,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(146,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(147,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(153,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(154,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(155,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(156,27): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(168,39): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(169,47): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+D:\Projects\CS 590 Lab 3\Lab03\src\main.cpp(280,74): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  Lab 3.vcxproj -> D:\Projects\CS 590 Lab 3\Lab03\x64\Debug\Lab 3.exe
