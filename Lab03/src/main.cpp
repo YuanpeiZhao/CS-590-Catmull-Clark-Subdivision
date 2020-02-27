@@ -72,13 +72,13 @@ void GenOBJ() {
 	tri.clear();
 	for (int i = 0; i < surfaces.size(); i++) {
 		TriangleC tmp;
-		tmp.Set(surfaces[i]->vertices[0]->pos, surfaces[i]->vertices[1]->pos, surfaces[i]->vertices[2]->pos); //store them for 3D printing
+		tmp.Set(20.0f * surfaces[i]->vertices[0]->pos, 20.0f * surfaces[i]->vertices[1]->pos, 20.0f * surfaces[i]->vertices[2]->pos); //store them for 3D printing
 		tri.push_back(tmp);
-		tmp.Set(surfaces[i]->vertices[0]->pos, surfaces[i]->vertices[2]->pos, surfaces[i]->vertices[3]->pos); //store them for 3D printing
+		tmp.Set(20.0f * surfaces[i]->vertices[0]->pos, 20.0f * surfaces[i]->vertices[2]->pos, 20.0f * surfaces[i]->vertices[3]->pos); //store them for 3D printing
 		tri.push_back(tmp);
 	}
 
-	SaveOBJ(&tri, "geometry1.obj");
+	SaveOBJ(&tri, "geometry0.obj");
 }
 
 /*********************************
